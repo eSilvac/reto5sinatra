@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Hola</h1>
+
+	<% while @cont <= 50 %>
+		<% if @cont.even? %>
+			<h3> <%= @cont %> Soy Par! </h3>
+		<% else %>
+			<h3> <%= @cont %> Soy Impar!</h3>
+		<% end %>
+
+		<% @cont+=1 %>
+	<% end %>
+</body>
+</html>
